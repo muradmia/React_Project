@@ -1,4 +1,8 @@
 @import "tailwindcss";
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top:100px;
+}
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
