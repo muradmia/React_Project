@@ -8,6 +8,9 @@ import About from './Projects/About'
 import { Features } from 'tailwindcss'
 import FeaturesSection from './Projects/FeaturesSection'
 import Schudle from './Projects/Schudle'
+import Monitor_Screen from './Projects/Monitor_Screen'
+import Price from './Projects/Price'
+import Service from './Projects/Service'
 
 function App() {
 
@@ -21,6 +24,9 @@ function App() {
         <About></About>
         <FeaturesSection></FeaturesSection>
         <Schudle></Schudle>
+        <Monitor_Screen></Monitor_Screen>
+        <Price></Price>
+        <Service></Service>
       </div>
       {/* <h1 className='p-4 text-gray-900'>Hello world</h1> */}
       
