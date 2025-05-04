@@ -7,6 +7,7 @@ import Company_logo from './Projects/Company_logo'
 import About from './Projects/About'
 import { Features } from 'tailwindcss'
 import FeaturesSection from './Projects/FeaturesSection'
+import Schudle from './Projects/Schudle'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Company_logo></Company_logo>
         <About></About>
         <FeaturesSection></FeaturesSection>
+        <Schudle></Schudle>
       </div>
       {/* <h1 className='p-4 text-gray-900'>Hello world</h1> */}
       

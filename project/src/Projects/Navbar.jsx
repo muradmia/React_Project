@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className= "fixed top-0 left-0 right-0  bg-white-/90 backdrop-blur-sm z-50 border-b border-gray-100 shadow-sm">
         <div className="w-full container mx-auto flex justify-between items-center px-4 lg:px-8 sm:px-6  h-20">
               {/* Logo Section */}
-              <div className='flex items-center gap-1 cursor-pointer'>
+            <div className='flex items-center gap-1 cursor-pointer'>
                 <div className='w-4 h-4 bg-blue-600 rounded-full opacity-75 hover:opacity-100 transition-opacity'></div>
                 <div className="w-4 h-4 -ml-2 bg-red-600 rounded-full opacity-75 hover:opacity-100 transition-opacity"></div>
             </div>
@@ -28,7 +28,7 @@ const Navbar = () => {
                 }
             </button>
             {/* deskto nav items */}
-            <div className="sm:hidden md:flex items-center gap-4">
+            <div className="hidden md:flex items-center gap-4">
 
                 {
                     navItem.map((item,index) =>(
@@ -37,7 +37,7 @@ const Navbar = () => {
                 }
             </div>
             {/* get in touch */}
-            <button className="sm:hidden md:block bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-800 text-sm font-medium transition-all hover:shadow-lg hover:shadow-blue-100">
+            <button className="hidden md:block bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-800 text-sm font-medium transition-all hover:shadow-lg hover:shadow-blue-100">
                 <a className="after:absolute after:left-0 after:bottom-0 after:bg-green-400" href="#newsletter">Get in Touch</a>
             </button>
 
