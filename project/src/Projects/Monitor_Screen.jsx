@@ -12,7 +12,7 @@ const Monitor_Screen = () => {
                 <p className='font-semibold text-gray-500 mb-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium laborum hic tempora expedita at voluptatum maxime, quaerat neque sunt quisquam vel architecto dolores consequuntur?</p>
                 <a href="#" className='text-blue-600 font-semibold flex items-center gap-2 hover:gap-4 transition-all cursor-pointer'>
                     Explore The Features
-                    <FaArrowRight className='size-4' />
+                    <FaArrowRight className='size-4'/>
                     </a>
             </div>
             {/* left div */}

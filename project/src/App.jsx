@@ -11,6 +11,7 @@ import Schudle from './Projects/Schudle'
 import Monitor_Screen from './Projects/Monitor_Screen'
 import Price from './Projects/Price'
 import Service from './Projects/Service'
+import Footer from './Projects/Footer'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Monitor_Screen></Monitor_Screen>
         <Price></Price>
         <Service></Service>
+        <Footer></Footer>
       </div>
       {/* <h1 className='p-4 text-gray-900'>Hello world</h1> */}
       

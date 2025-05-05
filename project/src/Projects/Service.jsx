@@ -57,21 +57,18 @@ const Service = () => {
                 </div>
                 <button className='mt-8 bg-indigo-800 px-8 py-3 text-white cursor-pointer rounded-full hover:bg-indigo-700 transition-color'>Get Started</button>
             </div>
-
             {/* Service card */}
-
             <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
                 {
                     // gird grid-cols-1 md:grid-cols-2 gap-12
                     services.map((service,index)=>(
-                        <div key={index} className='bg-white max-w-72 cursor-pointer rounded-2xl p-6 hover:shadow-xl transition-shadow duration-500'>
+                        <div key={index} className='bg-white max-w-100 cursor-pointer rounded-2xl p-6 hover:shadow-xl transition-shadow duration-500'>
                             <div className='mb-4'>
                                 {service.icon}
                             </div>
                             <h3 className='text-xl font-semibold mb-2'>{service.title}</h3>
                             <p className='text-gray-600 mb-4'>{service.description}</p>
                             <a href={service.link} className='text-indigo-600 font-medium text-lg'>Learn More</a>
-                        
                         </div>
                     ))
                 }
