@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Task from './Components/Task_Manager'
 import Demo_task from './Components/Demo_task'
+import ProductCard from './Components/Card'
+import Card2 from './Components/Card2'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +14,9 @@ function App() {
     <div>
       {/* <Task></Task> */}
       <Demo_task></Demo_task>
+      
+      <Card2></Card2>
+      {/* <ProductCard></ProductCard> */}
     </div>
   )
 }

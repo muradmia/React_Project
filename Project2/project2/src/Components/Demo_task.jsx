@@ -34,9 +34,9 @@ const Demo_task = () => {
         <div className='container mx-auto  pt-20 '>
             <div className='max-w-[500px]  mx-auto bg-white rounded-lg shadow py-6 px-10'>
                 <h2 className='text-2xl font-bold '>Task Manager</h2>
-                <div>
+                <div className='flex '>
                     <input type='text' value={newTask} onChange={(e)=>setNewTask(e.target.value)} placeholder='Add a new task' className='border border-gray-700 py-3 px-12 mt-4 rounded-xl'/>
-                    <button onClick={add} className='bg-blue-500 text-white px-5 py-3 rounded-lg hover:bg-blue-600 transition-colors ml-2 cursor-pointer'>Add</button>
+                    <button onClick={add} className='sm:mt-4 bg-blue-500 text-white px-5 py-3 rounded-lg hover:bg-blue-700 transition-colors ml-2 cursor-pointer'>Add</button>
                 </div>
                 <div>
                     <button className='bg-blue-500 px-5 mt-6 text-white py-3 rounded-lg me-2 cursor-pointer hover:bg-blue-700 transition:color'>All</button>
