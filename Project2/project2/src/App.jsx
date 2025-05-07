@@ -6,6 +6,7 @@ import Task from './Components/Task_Manager'
 import Demo_task from './Components/Demo_task'
 import ProductCard from './Components/Card'
 import Card2 from './Components/Card2'
+import CheckoutPage from './Components/Back'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       
       <Card2></Card2>
       {/* <ProductCard></ProductCard> */}
+      <CheckoutPage></CheckoutPage>
     </div>
   )
 }
